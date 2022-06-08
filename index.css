@@ -1,0 +1,93 @@
+body{
+    /* background-color: blueviolet; */
+    background-image: url('img/bg2.jpg');
+    background-size: cover;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.container{
+    text-align: center;
+    display: inline;
+    position: absolute;
+    left: 36px;
+    /* border: 2px solid white; */
+    border-radius: 23px;
+    width: 40%;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+.container:hover{
+    background-color: #cd5704;
+    /* height: 230px;
+    width: 400px; */
+    transform: scale(1.1);
+}
+
+
+.form-group{
+    margin: 10px;
+    
+}
+.form-group input{
+    border-radius: 10px;
+    width: 80%;
+    color: grey;
+    
+    text-align: center;
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 46px;
+    /* top: px; */
+    text-shadow: 2px 2px red;
+}
+.right{
+    color: black;
+    /* border: 2px solid navy; */
+    display: inline-block;
+    position: absolute;
+    right: 36px;
+    top: 8px;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+    /* border: 2px solid orange; */
+    text-shadow: 1px 2px #cd5704;
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    /* width: 10px; */
+    font-size: 19px;
+}
+.navbar li a{
+    color: white;
+    padding: 3px 5px;
+    text-overflow: ellipsis;
+    text-decoration: solid;
+}
+.navbar li a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.btn{
+    margin: auto;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(36, 35, 35);
+}
